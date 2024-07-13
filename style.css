@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+text-decoration: none;
+}
+
+.container{
+    /* background-color: #cae9ff; */
+    background-size: cover;
+    height:100vh;
+    opacity:0.85;
+    background-image: url(images/1.jpg);
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_side{
+    width:50%;
+    height:140px;
+    /* border:2px blue solid; */
+    display: flex;
+}
+
+.logo{
+    margin-left:2rem;
+    margin-top: 0.9rem;
+    background-image: url(images/logo.png);
+    background-size: cover;
+    height: 141px;
+    width: 115px;
+    /* border:2px black solid; */
+}
+
+.heading{
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    
+}
+
+.menu_side{
+    margin-top: 0.5rem;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+    height: 50px;
+}
+
+.menu{
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-family:raleway;   
+    letter-spacing:0.1rem;
+}
+
+.menu a{
+    color: #13364c;
+    padding: 0.5rem;
+    
+}
+.menu a ::after{
+    color: #1b4965;
+}
+
+.menu a:hover
+{
+    transition:ease-in;
+    transition-duration: 0.6s;
+    padding: 0.5rem;
+    background-color: #5fa8d3a3;
+    border-radius: 25px;
+}
+
+.hero{
+    display: flex;
+    /* border: 2px blueviolet solid; */
+    height:20rem;
+    margin-top: 7.7rem;
+    align-items: center;
+    justify-content: center;
+    gap:7rem;
+}
+
+.box_mini{
+    font-family: orbitron;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #cae9ff81;
+    height: 12rem;
+    width: 25rem;
+    border: 2px white solid;
+    border-radius: 30px;
+    box-shadow: 20px 20px 50px black;
+}
+
+.box_mini p{
+    text-decoration: none;
+    color: #0d1b2a;
+}
+
+.box_mini:hover{
+    transform: scale(1.1,1.1);
+    box-shadow: 20px 20px 50px black;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    /* border:2px solid purple; */
+    background-image: url(images/audi.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opacity: 0.8; */
+}
+
+h2{
+    font-family: raleway;
+    color: wheat;
+    letter-spacing: 0.1rem;
+    margin-bottom: -65px;
+}
+.hero{
+    height: 100vh;
+    width: 30rem;
+    /* background-color: #cae9ffb4; */
+    background-color: #582f0e;
+
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    /* border: 2px black solid; */
+    /* border-radius: 14px; */
+    box-shadow: 0px 10px 50px 0 black;
+}
+
+form{
+    /* border: red 2px solid; */
+    /* margin: 3rem; */
+    margin-top: 25px;
+    margin-bottom: -10px;
+    font-family: raleway;
+    /* padding: 3rem; */
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+input{
+    margin: 1rem;
+    font-family: raleway;
+    padding: 0.2rem;
+    font-weight: 900;
+
+    width:20.5rem;
+    height: 2rem;
+
+    border-radius: 10px; 
+    
+    border: 2px solid #022036;
+}
+
+.submit{
+    background-color: #7f4f24;
+    font-family: raleway;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid #a59282;
+    height: 2.3rem;
+    width:5rem;
+
+}
+
+.submit:hover
+{
+    background-color: #6c3d13;
+}
+
+.submit_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px red solid; */
+}
+
+label{
+    font-style: comfortaa;
+    font-size: medium;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    color: wheat;
+    
+}
