@@ -9,9 +9,11 @@ This repository contains a simple Student Result Management System implemented u
 **3. Student Portal:**
 - Students can log in to check their marks.
 
-  ## Technologies Used
+ ## Technologies Used
   1. HTML
   2. CSS
   3. PHP
+
+Website : https://juit-results.000webhostapp.com/
  
-  #### Note: This is just a basic implementation with no security or authorization. A full project is under development using MERN technologies.
+#### Note: This is just a basic implementation with no security or authorization. A full project is under development using MERN technologies.
